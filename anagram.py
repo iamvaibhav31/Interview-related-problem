@@ -4,14 +4,17 @@ if the second is simply a rearrangement of the first. For example, 'heart' and '
 simplicity, we will assume that the two strings in question are of equal length and that they are made up of symbols from the set of 26 lowercase alphabetic characters. 
 Our goal is to write a boolean function that will take two strings and return whether they are anagrams.
 """
-
-def anagram(s1 , s2): # methord 1
+# ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# METHORD 1
+def anagram(s1 , s2): 
     s1 = s1.replace(' ','').lower()
     s2 = s1.replace(' ','').lower()
 
     return sorted(s1) == sorted(s2)
-
-def anagram2(s1 , s2): # methord 2
+# END
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- #
+# METHORD 2
+def anagram2(s1 , s2): 
     s1 = s1.replace(' ','').lower()
     s2 = s1.replace(' ','').lower()
 
@@ -37,7 +40,7 @@ def anagram2(s1 , s2): # methord 2
             return False
         
     return True
-
-
+# END
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- #
 print(anagram('public relation','crap built on lies'))
 print(anagram2('clint eastwood','old west action'))
