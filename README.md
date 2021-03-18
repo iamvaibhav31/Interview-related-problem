@@ -21,7 +21,7 @@ Input:
 
 Q2. consider  an array of non-negative. A second array is formed by shuffling the elements of the first array and deleting a random element. Given these two arrays find which element is missing in the second array.
 
-Here is an example input , the first is shuffled and the number 5 in removed to  construct the second array 
+Here is an example input , the first is shuffled and the number 5 in removed to  construct the second array ?
 
 Input:
 
@@ -33,7 +33,7 @@ Output:
 
 # LARGEST CONTINUOUS SUM IN ARRAY
 
-Q3. Give an array of integers (positive and negative) find the largest continuous sum.
+Q3. Give an array of integers (positive and negative) find the largest continuous sum ?
 
 Input:
 
@@ -42,3 +42,16 @@ Input:
 Output:
 
     29
+
+# ARRAY PAIR SUM 
+
+Q4. Given an integer array , output all the unique pair that sum up to a specific value K ?
+
+Input:
+    
+    [1,3,2,2] 4
+    
+Output:
+
+    (1,3)
+    (2,2)
