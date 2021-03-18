@@ -17,7 +17,21 @@ Q2. consider  an array of non-negative. A second array is formed by shuffling th
 Here is an example input , the first is shuffled and the number 5 in removed to  construct the second array 
 
 Input:
+
     finder([1,2,3,4,5,6,7],[3,7,2,1,4,6])
 
 Output:
+
     The missing element is := 5
+
+# LARGEST CONTINUOUS SUM IN ARRAY
+
+Q3. Give an array of integers (positive and negative) find the largest continuous sum.
+
+Input:
+
+    1,2,-1,3,4,10,10,-10,-1
+    
+Output:
+
+    29
