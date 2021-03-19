@@ -55,3 +55,25 @@ Output:
 
     (1,3)
     (2,2)
+
+# STRING COMPRESSION 
+
+Given a string in the form 'AAABBBAACCEE' compress it to become 'A3B3A2C2E2' .For this problem you can falsely "compress" strings of single or duble letters . For instnce ,it is okay for 'AAB' of return 'A2B1' even though this tehiinically take ore space.
+
+The function should also be a case sensitive 'AAAaaa' retuns 'A3a3'
+
+Input 1 :
+
+    AAABCEEE
+    
+Output :
+
+    A3B1C1E3
+    
+Input 2 :
+
+    AAAaaa
+    
+Output :
+
+    A3a3
