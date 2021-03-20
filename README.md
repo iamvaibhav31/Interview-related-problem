@@ -58,7 +58,7 @@ Output:
 
 # STRING COMPRESSION 
 
-Given a string in the form 'AAABBBAACCEE' compress it to become 'A3B3A2C2E2' .For this problem you can falsely "compress" strings of single or duble letters . For instnce ,it is okay for 'AAB' of return 'A2B1' even though this tehiinically take ore space.
+Q5. Given a string in the form 'AAABBBAACCEE' compress it to become 'A3B3A2C2E2' .For this problem you can falsely "compress" strings of single or duble letters . For instnce ,it is okay for 'AAB' of return 'A2B1' even though this tehiinically take ore space.
 
 The function should also be a case sensitive 'AAAaaa' retuns 'A3a3'
 
@@ -77,3 +77,18 @@ Input 2 :
 Output :
 
     A3a3
+
+# UNIQUE CHARACTER STRING 
+
+Q6. Given a string , determine if it is compreised of all the unique character .for example the string 'abcde' has all  unique characters and should return True. The string 
+'aabbss' contain dublicate character and shaould retune false.
+
+Input:
+
+    abcd
+    
+Output:
+
+    True
+    
+    
