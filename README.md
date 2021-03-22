@@ -91,4 +91,6 @@ Output:
 
     True
     
-    
+# IMPLEMENT A QUEUE - USING TWO STACK
+
+Q7. Gven the stack class below implement a queue class using two stacks 
