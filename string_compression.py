@@ -6,6 +6,7 @@ space.
 The function should also be a case sensitive 'AAAaaa' retuns 'A3a3'
 """
 
+# METHORD_1 
 
 def compress(s):
 
@@ -36,4 +37,24 @@ def compress(s):
     
     return r
 
+# METHORD_2
+
+def compress1(word):
+    if len(word) == 0:
+        return ""
+    
+    if lle(word) == 1:
+        return word+"1"
+    
+    layer = []
+    for i in word:
+        if i not in layer:
+            count=word.count(i)
+            layer+= i+str(count)
+    result = "".join(layer)
+    return result
+
 print(compress("AAaabbCcB"))
+print(compress("vaibhav"))
+print(compress1("AAaabbCcB"))
+print(compress1("vaibhav"))
